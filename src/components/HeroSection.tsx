@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Shield, CheckCircle } from "lucide-react";
-import logoImage from "@/assets/logo-hero.jpg";
+import demoVideo from "@/assets/regulattice-demo.mp4";
 
 const stats = [
   { value: "3-4 weeks", label: "to tax ready" },
@@ -80,7 +80,14 @@ const HeroSection = () => (
         transition={{ delay: 0.6 }}
         className="mt-16"
       >
-        <img src={logoImage} alt="ReguLattice Platform" className="w-full max-w-3xl rounded-2xl shadow-elevated border border-primary-foreground/10 animate-float" />
+        <video
+          src={demoVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full max-w-4xl rounded-2xl shadow-elevated border border-primary-foreground/10"
+        />
       </motion.div>
     </div>
   </section>
