@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoImage from "@/assets/logo-hero.jpg";
+
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -18,7 +18,6 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-xl border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <a href="#" className="flex items-center gap-2">
-          <img src={logoImage} alt="ReguLattice" className="h-8 w-8 rounded-md object-cover" />
           <span className="font-heading text-xl font-bold text-foreground">
             Regu<span className="text-gradient">Lattice</span>
           </span>

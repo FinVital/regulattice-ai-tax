@@ -18,7 +18,7 @@ const plans = [
     period: "/month",
     features: ["Core compliance", "Basic reports", "Up to 5 users", "Email support"],
     cta: "Get Started",
-    popular: true,
+    popular: false,
   },
   {
     name: "Pro",
@@ -27,7 +27,7 @@ const plans = [
     period: "/month",
     features: ["Full AI suite", "Audit-ready packs", "Risk scoring", "Priority support", "Multi-user"],
     cta: "Get Started",
-    popular: false,
+    popular: true,
   },
   {
     name: "Enterprise",
